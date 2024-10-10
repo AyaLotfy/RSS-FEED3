@@ -24,9 +24,13 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/newspaper.png",
+              "src/newspaper.ico",
+              "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -70,7 +74,10 @@
               "buildTarget": "rss-feed3:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "proxyConfig": "proxy.conf.json"
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
@@ -87,12 +94,21 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/newspaper.png",
+              "src/newspaper.ico",
+                "src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+            ]
           }
         }
       }

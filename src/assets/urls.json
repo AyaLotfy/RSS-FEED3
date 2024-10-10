@@ -1,0 +1,34 @@
+{
+    "categories":[
+        "News",
+        "Markets",
+        "Technology",
+        "Personal Finance",
+        "Lifestyle",
+        "Small Business"
+    ],
+    "data":{
+
+        "News":["http://rss.cnn.com/rss/money_latest.rss",
+        "http://rss.cnn.com/rss/money_topstories.rss",
+        "http://rss.cnn.com/rss/money_mostpopular.rss",
+        "http://rss.cnn.com/rss/money_news_companies.rss",
+        "http://rss.cnn.com/rss/money_news_international.rss",
+        "http://rss.cnn.com/rss/money_news_economy.rss",
+        "http://rss.cnn.com/rss/money_media.rss"],
+        "Markets":["http://rss.cnn.com/rss/money_markets.rss"
+    ],
+        "Technology":["http://rss.cnn.com/rss/money_technology.rss"],
+        "Personal Finance":["http://rss.cnn.com/rss/money_pf.rss", 
+            "http://rss.cnn.com/rss/money_autos.rss",
+            "http://rss.cnn.com/rss/money_funds.rss",
+            "http://rss.cnn.com/rss/money_pf_college.rss",
+            "http://rss.cnn.com/rss/money_pf_insurance.rss",
+            "http://rss.cnn.com/rss/money_pf_taxes.rss",
+            "http://rss.cnn.com/rss/money_retirement.rss"],
+        "Lifestyle":["http://rss.cnn.com/rss/money_lifestyle.rss", 
+            "http://rss.cnn.com/rss/money_realestate.rss", 
+            "http://rss.cnn.com/rss/money_luxury.rss"],
+        "Small Business":["http://rss.cnn.com/rss/money_smbusiness.rss"]
+        }
+}

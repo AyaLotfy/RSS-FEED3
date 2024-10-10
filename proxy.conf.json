@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "http://rss.cnn.com",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  

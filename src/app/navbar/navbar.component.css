@@ -1,0 +1,10 @@
+.navbar-brand img {
+    height: 60px; /* Default logo size */
+  }
+
+  /* Smaller logo size for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      height: 40px; /* Adjust logo size for mobile devices */
+    }
+  }
