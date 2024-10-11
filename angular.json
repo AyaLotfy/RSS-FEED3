@@ -30,10 +30,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
               "@angular/material/prebuilt-themes/azure-blue.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              
+
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -42,6 +49,7 @@
           },
           "configurations": {
             "production": {
+  
               "budgets": [
                 {
                   "type": "initial",
@@ -54,7 +62,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "serviceWorker": "ngsw-config.json"
             },
             "development": {
               "optimization": false,
@@ -103,10 +112,12 @@
               "node_modules/ngx-toastr/toastr.css",
               "@angular/material/prebuilt-themes/azure-blue.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              
               "src/styles.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              
 
             ]
           }

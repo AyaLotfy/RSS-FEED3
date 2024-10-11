@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { RSS } from '../model/rss.model';
 import { SideComponent } from '../side/side.component';
 
 @Component({
@@ -9,5 +10,5 @@ import { SideComponent } from '../side/side.component';
   styleUrl: './post.component.css'
 })
 export class PostComponent {
-
+@Input() feed: RSS = new RSS() ;
 }

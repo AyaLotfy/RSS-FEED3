@@ -10,15 +10,7 @@
                 <!-- <div class="col-lg-6"> -->
                     <div *ngFor="let feed of feeds  | paginate: { itemsPerPage: 25, currentPage: p}" class="feed-item">
                     <!-- Blog post-->
-                          <div class="card mb-4">
-                            <div class="card-body">
-                                <div class="small text-muted">{{feed.pubDate}}</div>
-                                <h2 class="card-title h4">{{feed.title}}</h2>
-                                <p class="card-text">{{feed.content}}</p>
-                                <a class="btn btn-primary" href="{{feed.link}}">Read more →</a>
-                            </div>
-                        
-                        </div>
+                          <app-post [feed] ="feed"></app-post>
                     <!-- </div> -->
                 </div>
             </div>

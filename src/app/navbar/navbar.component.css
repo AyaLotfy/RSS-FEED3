@@ -8,3 +8,7 @@
       height: 40px; /* Adjust logo size for mobile devices */
     }
   }
+  .dropdown-item {
+    color: #000 !important; /* Ensure the text is visible */
+  }
+  
